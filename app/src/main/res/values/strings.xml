@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BerryPay</string>
+    <string name="login_username_hint">Username / Email / Phone number</string>
+    <string name="login_password_hint">Password</string>
+    <string name="link_lupa_akun">
+        <u>Forgot Account</u>
+    </string>
+    <string name="link_buat_akun">
+        <u>Create Account</u>
+    </string>
+    <string name="berrypay">Berry Pay</string>
+    <string name="btn_login">Login</string>
+    <!--Register-->
+    <string name="register_email_hint">Email</string>
+    <string name="register_username_hint">Username</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_phone_number_hint">Phone number</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Abu Khoerul Iskandar Ali</string>
+    <string name="nav_header_subtitle">khoirulabhu@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
