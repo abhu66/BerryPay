@@ -1,7 +1,8 @@
-package app.berrypay
+package app.berrypay.activity.forgot
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import app.berrypay.R
 
 class ForgotAccountActivity : AppCompatActivity() {
 

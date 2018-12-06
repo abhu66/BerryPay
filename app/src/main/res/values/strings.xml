@@ -21,7 +21,14 @@
     <string name="nav_header_title">Abu Khoerul Iskandar Ali</string>
     <string name="nav_header_subtitle">khoirulabhu@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="menu_beranda">Beranda</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_upload_ktp">Upload Ktp</string>
+    <string name="menu_kata_sandi">Ganti Kata Sandi</string>
+    <string name="menu_syarat_ketentuan">Syarat &amp; Ketentuan</string>
+    <string name="menu_hubungi_kami">Hubungi Kami</string>
+    <string name="menu_tentang_kami">Tentang Kami</string>
+    <string name="menu_keluar">Keluar</string>
 
 
 </resources>

@@ -1,10 +1,11 @@
-package app.berrypay
+package app.berrypay.activity.register
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import app.berrypay.R
 
-class CreateAccountActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
