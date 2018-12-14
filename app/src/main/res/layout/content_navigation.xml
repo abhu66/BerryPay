@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,8 +7,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:showIn="@layout/app_bar_navigation"
-        tools:context=".activity.navigation.NavigationActivity"
-        tools:ignore="PrivateResource">
+        tools:context=".activity.navigation.NavigationActivity">
 
     <com.synnapps.carouselview.CarouselView
             android:id="@+id/carouselView"
@@ -20,5 +19,58 @@
             app:slideInterval="3000"
             app:strokeColor="#FF777777"
             app:strokeWidth="1dp"/>
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:backgroundTint="#ff1919"
+            android:layout_marginStart="0sp"
+            android:layout_margin="0sp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@+id/carouselView"
+            android:id="@+id/cardView">
+        <TextView
+                android:text="@string/lbl_saldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFF"
+                android:textSize="18sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="10sp"
+                android:id="@+id/lbl_saldo"/>
+        <TextView
+                android:text="@string/saldo_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFF"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10sp"
+                android:id="@+id/saldo_value"/>
+        <Button
+                android:text="@string/btn_topup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="5sp"
+                android:background="@color/colorAccent"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="#FFFF"
+                android:layout_marginEnd="10sp"
+                android:id="@+id/button"/>
+    </android.support.v7.widget.CardView>
 
-</android.support.constraint.ConstraintLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardView">
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

@@ -29,6 +29,9 @@
     <string name="menu_hubungi_kami">Hubungi Kami</string>
     <string name="menu_tentang_kami">Tentang Kami</string>
     <string name="menu_keluar">Keluar</string>
+    <string name="lbl_saldo">Saldo anda saat ini :</string>
+    <string name="saldo_value">Rp 0</string>
+    <string name="btn_topup">Top Up</string>
 
 
 </resources>
