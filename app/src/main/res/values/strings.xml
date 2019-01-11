@@ -1,26 +1,20 @@
 <resources>
-    <string name="app_name">BerryPay</string>
-    <string name="login_username_hint">Username / Email / Phone number</string>
-    <string name="login_password_hint">Password</string>
+    <string name="app_name"></string>
+    <string name="login_username_hint">No Handphone</string>
+    <string name="login_password_hint">Kata Sandi</string>
     <string name="link_lupa_akun">
-        <u>Forgot Account</u>
+        <u>Lupa Sandi ?</u>
     </string>
     <string name="link_buat_akun">
-        <u>Create Account</u>
+        <u>Pengguna Baru? Dafta disini</u>
     </string>
     <string name="berrypay">Berry Pay</string>
-    <string name="btn_login">Login</string>
+    <string name="btn_login">Masuk</string>
     <!--Register-->
     <string name="register_email_hint">Email</string>
     <string name="register_username_hint">Username</string>
     <string name="register_password_hint">Password</string>
     <string name="register_phone_number_hint">Phone number</string>
-    <string name="title_activity_navigation">NavigationActivity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Abu Khoerul Iskandar Ali</string>
-    <string name="nav_header_subtitle">khoirulabhu@gmail.com</string>
-    <string name="nav_header_desc">Navigation header</string>
     <string name="menu_beranda">Beranda</string>
     <string name="menu_profile">Profile</string>
     <string name="menu_upload_ktp">Upload Ktp</string>
@@ -32,6 +26,12 @@
     <string name="lbl_saldo">Saldo anda saat ini :</string>
     <string name="saldo_value">Rp 0</string>
     <string name="btn_topup">Top Up</string>
+    <string name="label_welcome">Selamat Datang \ndi BerryPay, \nMudah itu Nyata </string>
+    <string name="label_first_ads">Geser untuk mendapatkan \npenawaran terbaik </string>
 
+    <array name="country_code">
+        <item>+62</item>
+        <item>+60</item>
+    </array>
 
 </resources>

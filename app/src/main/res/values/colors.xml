@@ -3,4 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="berrypaywhite">#FFFFFF</color>
+    <color name="berrypayred">#F12A2A</color>
+    <color name="berrypaygrey">#545454</color>
+    <color name="berrypaydark">#373737</color>
+    <color name="berrypaylightgrey">#E9E9E9</color>
+    <color name="berrypayyellow">#E9B60D</color>
+
 </resources>

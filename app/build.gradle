@@ -42,6 +42,12 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:2.4.0"
     implementation "com.squareup.okhttp3:logging-interceptor:3.4.1"
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'me.dm7.barcodescanner:zxing:1.9'
+    implementation 'com.google.android.gms:play-services-vision:11.8.0'
+    implementation 'com.google.android.gms:play-services-vision:11.4.2'
+    implementation 'com.journeyapps:zxing-android-embedded:3.3.0@aar'
 }
 
 androidExtensions {

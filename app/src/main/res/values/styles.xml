@@ -6,7 +6,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="colorPrimary">#ff1919</item>
-        <item name="colorPrimaryDark">#ff1919</item>
+        <item name="colorPrimaryDark">@color/berrypaylightgrey</item>
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>

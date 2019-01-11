@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/berrypaylightgrey"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="10sp"
+            android:layout_height="80sp"
+            android:layout_marginBottom="1sp"
+            android:backgroundTint="@color/berrypaywhite"
+            android:layout_alignParentEnd="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginEnd="0dp">
+
+        <ImageView
+                android:layout_width="40sp"
+                android:layout_height="80sp"
+                android:padding="10sp"
+                android:layout_marginStart="5sp"
+                app:srcCompat="@drawable/ic_languange"
+                android:layout_gravity="center|start"
+                android:id="@+id/ic_setting_item"/>
+        <TextView
+                android:text="Languange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginStart="70sp"
+                android:layout_marginTop="20sp"
+                android:id="@+id/header_setting_name"/>
+        <TextView
+                android:text="Detail Setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/berrypaylightgrey"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="70sp"
+                android:id="@+id/detail_content_setting"/>
+        <ImageView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:background="@drawable/ic_forward"
+                android:layout_gravity="center|end"
+                android:layout_marginEnd="10sp"
+                android:id="@+id/imageView4"/>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@color/berrypaylightgrey"
+        tools:context=".activity.dashboard.DashboardActivity">
+
+
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_layout_home"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/berrypaywhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+        <ImageView
+                android:id="@+id/barcode"
+                android:layout_width="25sp"
+                android:contentDescription="Berry Pay"
+                android:layout_height="50sp"
+                android:layout_gravity="start"
+                android:src="@drawable/ic_qrcode"/>
+
+        <ImageView
+                android:id="@+id/logo"
+                android:layout_width="40sp"
+                android:contentDescription="Berry Pay"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40sp"
+            android:layout_height="50sp"
+            android:src="@drawable/ic_profile_user"
+            android:id="@+id/ic_profile_layout_home"
+            app:civ_border_color="@color/berrypaylightgrey"
+            app:civ_border_width="2sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="11dp" android:layout_alignBottom="@+id/toolbar_layout_home"
+            android:layout_marginBottom="4dp"/>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="70sp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="80dp"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/berrypayred"
+            app:cardCornerRadius="20sp"
+            android:id="@+id/cardview_layout_home"
+            android:layout_marginEnd="14dp">
+        <TextView
+                android:text="Rp. 500.000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginStart="16sp"
+                android:textColor="@color/berrypaywhite"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:id="@+id/textView3"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_star"
+                android:layout_marginTop="40sp"
+                android:layout_marginStart="16sp"
+                android:id="@+id/imageView2"/>
+        <TextView
+                android:text="15.000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:textSize="18sp"
+                android:textColor="@color/berrypayyellow"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginStart="44sp"
+                android:id="@+id/textView4"/>
+        <Button
+                android:text="isi saldo"
+                android:layout_width="120sp"
+                android:layout_height="40sp"
+                android:layout_gravity="end|center"
+                android:textColor="@color/berrypaywhite"
+                android:drawableStart="@drawable/ic_topup"
+                android:padding="5sp"
+                android:fontFamily="sans-serif-condensed"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_marginEnd="16sp"
+                android:background="@drawable/rounded_btn_topup"
+                android:id="@+id/button"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_dashboard_horizontal_ads"
+            android:layout_width="wrap_content"
+            android:layout_height="150sp"
+            android:layout_below="@+id/cardview_layout_home"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14sp"
+            android:scrollbars="horizontal"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14sp"/>
+    <ImageView
+            android:id="@+id/btn_slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5sp"
+            android:padding="10sp"
+            android:scaleX="-1"
+            app:srcCompat="@drawable/ic_forward"
+            android:layout_marginTop="222dp" android:layout_alignParentTop="true"
+            android:layout_marginRight="7dp"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_dashboard_item"
+            android:layout_width="wrap_content"
+            android:layout_height="150sp"
+            android:layout_below="@+id/rv_dashboard_horizontal_ads"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="14sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14sp"/>
+
+
+</RelativeLayout>
